@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><%=  title  %></title>
+  <% include ./partials/head.ejs %>
+</head>
+
+<body class="section-1-home">
+  <% include ./partials/nav.ejs %>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <img class="imgEmoji" src="img/imgEmoji.png" alt="Imagen generica">
+      </div>
+    </div>
+    <div class="jumbotron jumbotron-fluid animated tada" id="about">
+      <div class="container">
+        <h1 class="display-3">This is my first page with node.js</h1>
+        <p class="lead">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur ducimus minima commodi!
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 ">
+        <div class="card text-white bg-dark ">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Dark card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+        </div>
+        <div class="col-sm-6 ">
+          <div class="card text-white bg-dark ">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Dark card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+      <% include ./partials/footer.ejs %>
+    </body>
+
+</html>
