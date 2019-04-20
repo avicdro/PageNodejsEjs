@@ -10,7 +10,7 @@ app.set('view engine', 'ejs');
 app.engine('html',require('ejs').renderFile);
 
 // Routes
-app.use(require('./routes/index'));
+app.use(require('./routes/route.js'));
 
 // Middlewares
 
